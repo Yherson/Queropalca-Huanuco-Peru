@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 253, 253);
+    position: sticky;
+    top: 0;
+}
+
+header nav h1{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    padding: 20px;
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/*------MAIN------*/
+
+.hero {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.168) 0%, hsla(0, 0%, 0%, 0.775) 100%), url(../img/principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.hero h1 {
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5em;
+    
+}
+
+.hero p {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    padding: 20px 20%;
+    padding-top: 150px;
+
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.info p {
+    font-size: 1.3em;
+    margin: 20px 10% 20px 10%;
+}
+
+.productos {
+    background-color: rgb(6, 6, 6);
+    margin: center;
+    padding: 30px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.productos h2{
+    text-align: center;
+}
+
+.productos div img {
+    width: 300px;
+    height: 300px;
+}
+
+.productos div {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
