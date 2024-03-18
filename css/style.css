@@ -105,22 +105,38 @@ header nav ul li a {
     border-radius: 15px;
 }
 
+
+
 .productos {
-    background-color: rgb(6, 6, 6);
+    background-color: rgba(103,103,103,0.07);
     margin: center;
     padding: 30px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    border-style: solid;
+    color: rgb(0, 0, 0);
 }
 
 .productos h2{
     text-align: center;
+    color: #4ba9ab;
+    font-size: 2rem;
+}
+
+.productos p {
+    text-align: justify;
+    padding: 5px;
+
 }
 
 .productos div img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.productos div h3{
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+    color: #4ba9ab;
 }
 
 .productos div {
