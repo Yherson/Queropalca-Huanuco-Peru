@@ -90,6 +90,7 @@ header nav ul li a {
     font-size: 1.3em;
     padding: 5px;
     color: rgb(68, 68, 68);
+    text-align: justify;
 }
 
 .info-img {
@@ -108,13 +109,16 @@ header nav ul li a {
 
 
 .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: rgba(103,103,103,0.07);
-    margin: center;
-    padding: 30px;
+    padding: 2% 5% 2% 5%;
     color: rgb(0, 0, 0);
 }
 
 .productos h2{
+    width: 100%;
     text-align: center;
     color: #4ba9ab;
     font-size: 2rem;
@@ -123,7 +127,6 @@ header nav ul li a {
 .productos p {
     text-align: justify;
     padding: 5px;
-
 }
 
 .productos div img {
@@ -133,16 +136,15 @@ header nav ul li a {
 
 .productos div h3{
     display: inline-block;
-    width: 30%;
-    margin: 20px;
+    width: 100%;
+    margin: 20px 0;
     text-align: center;
     color: #4ba9ab;
 }
 
 .productos div {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
+    flex: 1 0 20%;
+    margin: 10px;
     text-align: center;
 }
 
